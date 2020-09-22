@@ -4,7 +4,7 @@
         if (scrollTop + clientHeight > scrollHeight - 10) {
             new Promise((resolve, reject) => {
                 loadingElem.classList.remove("hidden");
-                setTimeout(resolve, 500);
+                setTimeout(resolve, 800);
             }).then(() => {
                 loadImages();
             });
